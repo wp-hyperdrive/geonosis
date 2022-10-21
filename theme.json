@@ -100,7 +100,8 @@
             "text": "var(--wp--preset--color--white)"
         },
         "typography": {
-            "fontFamily": "var(--wp--preset--font-family--system-font)"
+            "fontFamily": "var(--wp--preset--font-family--system-font)",
+            "lineHeight": "1.5"
         }
     },
     "customTemplates": {},
