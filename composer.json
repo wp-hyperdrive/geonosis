@@ -1,0 +1,32 @@
+{
+    "name": "wp-hyperdrive/geonosis",
+    "type": "wordpress-theme",
+    "license": "GPL-3.0-or-later",
+    "description": "Geonosis is a block-based WordPress theme. It is built to leverage the full-site editing functionality.",
+    "authors": [
+        {
+            "name": "High Five",
+            "email": "hello@high-five.dev",
+            "homepage": "https://www.high-five.dev"
+        },
+        {
+            "name": "Harm Putman",
+            "email": "harm@high-five.dev",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "wordpress",
+        "themes"
+    ],
+    "support": {
+        "issues": "https://github.com/wp-hyperdrive/geonosis/issues",
+        "forum": "https://github.com/wp-hyperdrive/geonosis/wiki"
+    },
+    "require": {
+        "php": "^8.0",
+        "composer/installers": "^1.12 || ^2.0"
+    },
+    "minimum-stability": "dev",
+	"prefer-stable": true
+}

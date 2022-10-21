@@ -1,0 +1,82 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "custom": false,
+            "customDuotone": false,
+            "customGradient": false,
+            "defaultGradients": false,
+            "defaultPalette": false,
+            "duotone": [],
+            "gradients": [],
+            "palette": [
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#282a36"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#f8f8f2"
+                },
+                {
+                    "name": "Purple",
+                    "slug": "purple",
+                    "color": "#bd93f9"
+                },
+                {
+                    "name": "Pink",
+                    "slug": "pink",
+                    "color": "#ff79c6"
+                },
+                {
+                    "name": "Red",
+                    "slug": "red",
+                    "color": "#ff5555"
+                },
+                {
+                    "name": "Orange",
+                    "slug": "orange",
+                    "color": "#ffb86c"
+                },
+                {
+                    "name": "Yellow",
+                    "slug": "yellow",
+                    "color": "#f1fa8c"
+                },
+                {
+                    "name": "Green",
+                    "slug": "green",
+                    "color": "#50fa7b"
+                },
+                {
+                    "name": "Cyan",
+                    "slug": "cyan",
+                    "color": "#8be9fd"
+                }
+            ]
+        },
+        "custom": {},
+        "layout": {
+            "contentSize": "960px",
+            "wideSize": "1140px"
+        },
+        "typography": {
+            "customFontSize": false,
+            "dropCap": false,
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell, \"Helvetica Neue\",sans-serif",
+                    "slug": "system-font",
+                    "name": "System Font"
+                }
+            ],
+            "fontSizes": [],
+            "letterSpacing": false
+        }
+    },
+    "styles": {},
+    "customTemplates": {},
+    "templateParts": {}
+}
