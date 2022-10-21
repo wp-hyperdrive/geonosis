@@ -2,6 +2,8 @@
     "version": 2,
     "settings": {
         "color": {
+            "text": false,
+            "background": false,
             "custom": false,
             "customDuotone": false,
             "customGradient": false,
