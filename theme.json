@@ -91,11 +91,6 @@
                 "color": {
                     "background": false
                 }
-            },
-            "core/paragraph": {
-                "color": {
-                    "background": false
-                }
             }
         }
     },
