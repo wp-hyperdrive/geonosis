@@ -1,6 +1,6 @@
 <?php
 
-defined('ABSPATH') || exit('That\'s not how the Force works!');
+defined('ABSPATH') || exit("That's not how the Force works!");
 
 class Geonosis
 {
@@ -9,10 +9,10 @@ class Geonosis
         add_action('after_setup_theme', [$this, 'afterSetupTheme']);
     }
 
-    protected function afterSetupTheme()
+    public function afterSetupTheme()
     {
         add_theme_support('wp-block-styles');
     }
 }
 
-$geonosis = (new Geonosis)->init();
+(new Geonosis)->init();
