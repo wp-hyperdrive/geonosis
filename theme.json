@@ -2,8 +2,7 @@
     "version": 2,
     "settings": {
         "color": {
-            "text": false,
-            "background": false,
+            "text": true,
             "custom": false,
             "customDuotone": false,
             "customGradient": false,
@@ -76,9 +75,39 @@
             ],
             "fontSizes": [],
             "letterSpacing": false
+        },
+        "blocks": {
+            "core/heading": {
+                "color": {
+                    "background": false
+                }
+            },
+            "core/paragraph": {
+                "color": {
+                    "background": false
+                }
+            },
+            "core/list": {
+                "color": {
+                    "background": false
+                }
+            },
+            "core/paragraph": {
+                "color": {
+                    "background": false
+                }
+            }
         }
     },
-    "styles": {},
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--black)",
+            "text": "var(--wp--preset--color--white)"
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--system-font)"
+        }
+    },
     "customTemplates": {},
     "templateParts": {}
 }

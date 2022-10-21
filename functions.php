@@ -12,6 +12,13 @@ class Geonosis
     public function afterSetupTheme()
     {
         add_theme_support('wp-block-styles');
+        add_theme_support('align-wide');
+
+        add_theme_support('disable-custom-font-sizes');
+        add_theme_support('disable-custom-colors');
+        add_theme_support('disable-custom-gradients');
+        add_theme_support('custom-line-height');
+        remove_theme_support( 'core-block-patterns' );
     }
 }
 
