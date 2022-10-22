@@ -58,18 +58,12 @@ class Geonosis
     public function loadStyles(): void
     {
         $path = get_stylesheet_directory_uri() . '/dist/style.css';
-        if (!file_exists($path)) {
-            return;
-        }
         wp_enqueue_style('geonosis-style', $path, [], $this->version);
     }
 
     public function loadScripts(): void
     {
-        $path = get_template_directory_uri() . '/dist/app.js';
-        if (!file_exists($path)) {
-            return;
-        }
+        $path = get_template_directory_uri() . '/dist/app.umd.js';
         wp_enqueue_script('geonosis-js', $path, [ 'jquery' ], $this->version, true);
 
     }
